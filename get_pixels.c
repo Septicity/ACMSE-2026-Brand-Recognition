@@ -1,16 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
+#include "get_pixels.h"
 
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
-
-typedef struct {
-    unsigned char r;
-    unsigned char g;
-    unsigned char b;
-    unsigned char a;
-} Pixel;
 
 uint8_t **get_pixels(const char *filename) { //returns a 2d array of pixels
     int width, height, channels;
