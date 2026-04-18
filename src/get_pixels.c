@@ -1,7 +1,12 @@
+#include <stdlib.h>
+#include <stdint.h>
+
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+
 #include "get_pixels.h"
 
-
-uint8_t **get_pixels(const char *filename, int* Width, int* Height) {
+uint8_t** get_pixels(const char* filename, int* Width, int* Height) {
 	
 	int width, height, channels;
 	
@@ -10,16 +15,16 @@ uint8_t **get_pixels(const char *filename, int* Width, int* Height) {
 	if(!data) return NULL;
 	
 	// Allocate matrix
-	uint8_t** res = malloc(width * sizeof(uint8_t *));
+	uint8_t** res = malloc(height * sizeof(uint8_t*));
 	if(!res) {
 		
 		stbi_image_free(data);
 		return NULL;
 		
 	}
-	for(int x = 0; x < width; x++) {
+	for(int x = 0; x < height; x++) {
 		
-		res[x] = malloc(height * sizeof(uint8_t));
+		res[x] = malloc(width * sizeof(uint8_t));
 		
 		if(!res[x]) {
 			
@@ -38,7 +43,7 @@ uint8_t **get_pixels(const char *filename, int* Width, int* Height) {
 		
 		for(int x = 0; x < width; x++) {
 			
-			res[x][y] = data[(y * width + x) * 4]; // red channel
+			res[y][x] = data[(y * width + x) * 4]; // red channel
 			
 		}
 		
@@ -47,8 +52,8 @@ uint8_t **get_pixels(const char *filename, int* Width, int* Height) {
 	stbi_image_free(data);
 	
 	// Write to the height/width values if we supply an argument
-	if (outWidth) *outWidth = width;
-	if (outHeight) *outHeight = height;
+	if (Width) *Width = width;
+	if (Height) *Height = height;
 
 	return res;
 }

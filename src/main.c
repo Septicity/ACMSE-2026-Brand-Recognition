@@ -1,16 +1,13 @@
 #include <stdio.h>
-#include <stdint.h>
+#include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include <math.h>
+#include <string.h>
 
-#include "stb_image.h"
 #include "get_pixels.h"
 #include "datatypes.c"
 #include "floodFill.c"
-
-Stack pointStack;
-initStack(&pointStack, DEFAULT_STACK_ALLOCATION);
 
 int main(int argc, char** argv) {
 	
@@ -42,30 +39,35 @@ int main(int argc, char** argv) {
 	
 	int height, width;
 	
-	uint8_t** pixelMatrix = get_pixels(filename, &height, &width);
+	uint8_t** pixelMatrix = get_pixels(filename, &width, &height);
 	
-	uint8_t** segmentMap = malloc(width * sizeof(uint8_t *));
+	printf("The loaded images dimensions are: %d, %d\n", width, height);
+	
+	printf("Loaded the image into the pixel matrix\n");
+	
+	uint8_t** segmentMap = malloc(height * sizeof(uint8_t *));
 	if(!segmentMap) {
 		return ERROR;
 		
 	}
-	for(int x = 0; x < width; x++) {
+	for(int y = 0; y < height; y++) {
 		
-		segmentMap[x] = calloc(height, sizeof(uint8_t));
+		segmentMap[y] = calloc(width, sizeof(uint8_t));
 		
-		if(!segmentMap[x]) {
+		if(!segmentMap[y]) {
 			
 			// cleanup if we fail
-			for (int i = 0; i < x; i++) free(segmentMap[i]);
+			for (int i = 0; i < y; i++) free(segmentMap[i]);
 			free(segmentMap);
 			return ERROR;
 			
 		}
 		
 	}
-
 	
-	freeStack(&pointStack);
+	printf("Created the segment matrix\n");
+	
+	floodfill(pixelMatrix, segmentMap, height, width);
 	
 	return SUCCESS;
 	

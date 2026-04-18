@@ -10,17 +10,19 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int height, int widt
 		seedX = rand() % width;
 		seedY = rand() % height;
 
-		if (segmentMap[seedX][seedY] == 0) break;
+		if (segmentMap[seedY][seedX] == 0) break;
 		
 	}
+	
+	printf("Picked random seed: %d, %d\n", seedY, seedX);
 
 	Stack stack;
 	if (!initStack(&stack, 128)) return; // Start with some default value and then grow
+	
+	printf("Created the stack \n");
 
 	// push seed pixel
-	push(&stack, (Point_t){seedX, seedY});
-
-	uint8_t base = pixelMatrix[seedX][seedY];
+	push(&stack, (Point_t){seedY, seedX});
 
 	Point_t p;
 
@@ -28,13 +30,14 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int height, int widt
 	while(pop(&stack, &p)) {
 		
 		// skip if we've already visited that pixel
-		if (segmentMap[p.x][p.y] != 0) continue;
+		if (segmentMap[p.y][p.x] != 0) continue;
 
-		segmentMap[p.x][p.y] = iteration;
+		segmentMap[p.y][p.x] = iteration;
 
 		// The 4 neighbors each pixel has
 		const int dx[4] = {1, -1, 0, 0};
 		const int dy[4] = {0, 0, 1, -1};
+		
 
 		for(int i = 0; i < 4; i++) {
 			
@@ -47,20 +50,23 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int height, int widt
 				continue;
 
 			// Is that pixel already assigned?
-			if(segmentMap[nx][ny] != 0)
+			if(segmentMap[ny][nx] != 0)
 				continue;
 			
 			// Grab the neighbor color value 
 			// Check if it passes our threshold
-			uint8_t val = pixelMatrix[nx][ny];
+			uint8_t val = pixelMatrix[ny][nx];
 			
-			if(abs(val - pixelMatrix[p.x][p.y]) <= 15) {
-				push(&stack, (Point_t){nx, ny});
+			if(abs(val - pixelMatrix[p.y][p.x]) <= 15) {
+				push(&stack, (Point_t){ny, nx});
 			}
+			
 			
 		}
 		
 	}
+	
+	printf("Flood Filled Segment %d", iteration);
 
 	freeStack(&stack);
 	iteration++;

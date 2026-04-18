@@ -8,8 +8,8 @@ typedef struct {
 	size_t capacity;
 } Stack;
 
-#define DEFAULT_STACK_ALLOCATION 154401 // The width * height of each image
-#define DESCRIMINATION_THRESHOLD 15
+//#define DEFAULT_STACK_ALLOCATION 154401 // The width * height of each image
+//#define DESCRIMINATION_THRESHOLD 15
 
 #define ERROR -1
 #define FAILURE 1
