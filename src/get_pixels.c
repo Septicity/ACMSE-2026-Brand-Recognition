@@ -1,29 +1,56 @@
 #include "get_pixels.h"
 
 
-uint8_t **get_pixels(const char *filename) { //returns a 2d array of pixels
-    int width, height, channels;
+uint8_t **get_pixels(const char *filename, int* Width, int* Height) {
+	
+	int width, height, channels;
+	
+	// Grab data from STB
+	uint8_t* data = stbi_load(filename, &width, &height, &channels, 4);
+	if(!data) return NULL;
+	
+	// Allocate matrix
+	uint8_t** res = malloc(width * sizeof(uint8_t *));
+	if(!res) {
+		
+		stbi_image_free(data);
+		return NULL;
+		
+	}
+	for(int x = 0; x < width; x++) {
+		
+		res[x] = malloc(height * sizeof(uint8_t));
+		
+		if(!res[x]) {
+			
+			// cleanup if we fail
+			for (int i = 0; i < x; i++) free(res[i]);
+			free(res);
+			stbi_image_free(data);
+			return NULL;
+			
+		}
+		
+	}
 
-    uint8_t *data = stbi_load(filename, &width, &height, &channels, 4);
-    uint8_t *pixels = malloc(width * height * sizeof(uint8_t));
+	// Grab the red channel from the RGBA buffer
+	for(int y = 0; y < height; y++) {
+		
+		for(int x = 0; x < width; x++) {
+			
+			res[x][y] = data[(y * width + x) * 4]; // red channel
+			
+		}
+		
+	}
 
-    for (int i = 0; i < width * height; i++) {
-        pixels[i] = data[i * 4]; //get the red channel of each pixel
-    }
+	stbi_image_free(data);
+	
+	// Write to the height/width values if we supply an argument
+	if (outWidth) *outWidth = width;
+	if (outHeight) *outHeight = height;
 
-
-    uint8_t **res = malloc(width * sizeof(uint8_t *));
-    for (int i = 0; i < width; i++) {
-        res[i] = malloc(height * sizeof(uint8_t));
-    }
-
-    for (int x = 0; x < width; x++) { //convert to 2d array
-        for (int y = 0; y < height; y++) {
-            res[x][y] = pixels[y * width + x];
-        }
-    }
-
-    return res;
+	return res;
 }
 
 

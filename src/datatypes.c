@@ -8,6 +8,15 @@ typedef struct {
 	size_t capacity;
 } Stack;
 
+#define DEFAULT_STACK_ALLOCATION 154401 // The width * height of each image
+
+/*
+	The following is a stack implimentation which will be used to store traversal candidates for our floodfill
+	Each operation is O(1) amortized time complexity
+
+*/
+
+
 // Create the stack
 int initStack(Stack *s, size_t capacity) {
 	
