@@ -8,6 +8,6 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
-uint8_t **get_pixels(const char *filename);
+uint8_t** get_pixels(const char *filename);
 
 #endif

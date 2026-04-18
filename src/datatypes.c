@@ -9,6 +9,11 @@ typedef struct {
 } Stack;
 
 #define DEFAULT_STACK_ALLOCATION 154401 // The width * height of each image
+#define DESCRIMINATION_THRESHOLD 15
+
+#define ERROR -1
+#define FAILURE 1
+#define SUCCESS 0
 
 /*
 	The following is a stack implimentation which will be used to store traversal candidates for our floodfill

@@ -40,11 +40,33 @@ int main(int argc, char** argv) {
 
 	printf("Opened file: %s\n", filename);
 	
+	int height, width;
 	
+	uint8_t** pixelMatrix = get_pixels(filename, &height, &width);
+	
+	uint8_t** segmentMap = malloc(width * sizeof(uint8_t *));
+	if(!segmentMap) {
+		return ERROR;
+		
+	}
+	for(int x = 0; x < width; x++) {
+		
+		segmentMap[x] = malloc(height * sizeof(uint8_t));
+		
+		if(!segmentMap[x]) {
+			
+			// cleanup if we fail
+			for (int i = 0; i < x; i++) free(segmentMap);
+			free(segmentMap);
+			return ERROR;
+			
+		}
+		
+	}
 
 	
 	freeStack(&pointStack);
 	
-	return 0;
+	return SUCCESS;
 	
 }	
