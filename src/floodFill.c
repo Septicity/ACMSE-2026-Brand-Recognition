@@ -17,17 +17,22 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int height, int widt
 	printf("Picked random seed: %d, %d\n", seedY, seedX);
 
 	Stack stack;
-	if (!initStack(&stack, 128)) return; // Start with some default value and then grow
+	if (!initStack(&stack, height * width)) return; // Start with some default value and then grow
 	
 	printf("Created the stack \n");
 
 	// push seed pixel
-	push(&stack, (Point_t){seedY, seedX});
+	push(&stack, (Point_t){seedX, seedY});
 
 	Point_t p;
 
 	// while stack not empty
 	while(pop(&stack, &p)) {
+		
+		if (p.x < 0 || p.x >= width || p.y < 0 || p.y >= height) {
+			printf("INVALID POP: (%d, %d)\n", p.y, p.x);
+			continue;
+		}
 		
 		// skip if we've already visited that pixel
 		if (segmentMap[p.y][p.x] != 0) continue;
@@ -53,12 +58,14 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int height, int widt
 			if(segmentMap[ny][nx] != 0)
 				continue;
 			
+			//printf("Current Point: %d %d, Neighbor Point: %d %d\n", p.x, p.y, nx, ny);
+			
 			// Grab the neighbor color value 
 			// Check if it passes our threshold
 			uint8_t val = pixelMatrix[ny][nx];
 			
 			if(abs(val - pixelMatrix[p.y][p.x]) <= 15) {
-				push(&stack, (Point_t){ny, nx});
+				push(&stack, (Point_t){nx, ny});
 			}
 			
 			

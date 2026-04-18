@@ -1,5 +1,5 @@
 typedef struct {
-	uint32_t x, y;
+	int32_t x, y;
 } Point_t;
 
 typedef struct {
