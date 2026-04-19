@@ -27,4 +27,5 @@ Example 2(delta = 100):
 ![Example 2](diagrams/EX2.png)
 
 Mask from the provided masks (colorized):
+
 ![Example Mask](diagrams/15088Mask.png)
