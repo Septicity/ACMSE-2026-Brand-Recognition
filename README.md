@@ -15,7 +15,7 @@ Team: Brand Recognition
 ```
 
 ## Usage
-To build:
+To build: (project has a precompiled windows binary at `/src/main`)
 ```
 ./src/build.sh
 ```
@@ -24,6 +24,7 @@ To run:
 ```
 ./src/main <filename> <delta>
 ```
+Output will be located at `/src/output.png`
 
 ## Operation
 ![Step 1](diagrams/step1.png)
