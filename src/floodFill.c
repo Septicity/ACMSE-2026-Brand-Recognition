@@ -1,7 +1,6 @@
 void floodfill(uint8_t** pixelMatrix, uint16_t** segmentMap, int* pixelsTraversed, int height, int width, char* deltac) {
 	
 	static int iteration = 1;
-	//static Point_t lastNonPoint = {-1, -1};
 
 	int seedX, seedY;
 	
@@ -21,11 +20,7 @@ void floodfill(uint8_t** pixelMatrix, uint16_t** segmentMap, int* pixelsTraverse
 
 	// push seed pixel
 	push(&stack, (Point_t){seedX, seedY});
-	
-	/*
-	lastNonPoint.x = -1;
-	lastNonPoint.y = -1;
-	*/
+
 	
 	Point_t p;
 	
@@ -58,7 +53,6 @@ void floodfill(uint8_t** pixelMatrix, uint16_t** segmentMap, int* pixelsTraverse
 			if(segmentMap[ny][nx] != 0)
 				continue;
 			
-			//printf("Current Point: %d %d, Neighbor Point: %d %d\n", p.x, p.y, nx, ny);
 			
 			// Grab the neighbor color value 
 			// Check if it passes our threshold
@@ -67,20 +61,13 @@ void floodfill(uint8_t** pixelMatrix, uint16_t** segmentMap, int* pixelsTraverse
 			if((abs(base - val) <= delta) && segmentMap[ny][nx] == 0) {
 				push(&stack, (Point_t){nx, ny});
 				*pixelsTraversed += 1;
-			} /*
-			else {
-				
-				lastNonPoint.x = nx;
-				lastNonPoint.y = ny;
-				
-			}
-			*/
+			} 
 			
 		}
 		
 	}
 	
-	printf("Flood Filled Segment %d\n", iteration);
+	//printf("Flood Filled Segment %d\n", iteration);
 
 	freeStack(&stack);
 	iteration++;
