@@ -31,7 +31,6 @@ To run:
 optional: -g (produce gif(slow))
           -h (show help)
 ```
-Output will be located at `/src/output.png`
 
 ## Operation
 
@@ -50,6 +49,11 @@ Example 2, training set (delta = 100):
 
 ![Example 2](diagrams/EX2.png)
 
+Mask from the provided masks (colorized):
+
+![Example Mask](diagrams/15088Mask.png)
+
+
 ---
 
 Example 3, testing set (delta = 15):
@@ -67,10 +71,3 @@ Example 5, testing set (delta = 15):
 Example 6, testing set (delta = 15):
 
 ![Example 6](diagrams/EX6.png)
-
----
-
-Mask from the provided masks (colorized):
-
-![Example Mask](diagrams/15088Mask.png)
-
