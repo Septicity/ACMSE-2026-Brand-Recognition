@@ -13,6 +13,18 @@ Team: Brand Recognition
     ├───images
     └───masks
 ```
+
+## Usage
+To build:
+```
+./src/build.sh
+```
+
+To run:
+```
+./src/main <filename> <delta>
+```
+
 ## Operation
 ![Step 1](diagrams/step1.png)
 ![Step 2bc](diagrams/step2b2c.png)
