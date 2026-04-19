@@ -75,10 +75,12 @@ int save_pixels(const char* filename, uint8_t** pixels, int width, int height) {
 			uint8_t val = pixels[y][x];
 
 			int idx = (y * width + x) * 4;
+			
+			//if((int)val * 20 > 255) printf("Overflow Detected at: %d %d\n", y, x);
 
-			data[idx + 0] = val * 20; // R
-			data[idx + 1] = val * 20; // G
-			data[idx + 2] = val * 20; // B
+			data[idx + 0] = (val * 20) % 255; // R
+			data[idx + 1] = (val * 20) % 255; // G
+			data[idx + 2] = (val * 20) % 255; // B
 			data[idx + 3] = 255; // A
 		}
 		
@@ -91,3 +93,21 @@ int save_pixels(const char* filename, uint8_t** pixels, int width, int height) {
 	return success;
 	
 }
+
+int countZeros(uint8_t** segmentMap, int height, int width) {
+	
+	int zeroCount = 0;
+	
+	for(int y = 0; y < height; y++) {
+		
+		for(int x = 0; x < width; x++) {
+			
+			zeroCount = (segmentMap[y][x] == 0) ? (zeroCount + 1) : zeroCount;
+			
+		}
+		
+	}
+	
+	return zeroCount;
+	
+}	

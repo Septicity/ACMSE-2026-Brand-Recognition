@@ -1,9 +1,11 @@
 void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed, int height, int width) {
 	
 	static int iteration = 1;
-	static Point_t lastNonPoint = {-1, -1};
+	//static Point_t lastNonPoint = {-1, -1};
 
 	int seedX, seedY;
+	
+	/*
 	
 	// Allows us to use the last detected non-section pixel as the start of the new section
 	if(lastNonPoint.x == -1 && lastNonPoint.y == -1) {
@@ -25,6 +27,11 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed
 		seedY = lastNonPoint.y;
 		
 	}	
+	
+	*/
+	
+	seedX = rand() % width;
+	seedY = rand() % height;
 
 	Stack stack;
 	if (!initStack(&stack, height * width)) return; // Start with some default value and then grow
@@ -32,9 +39,11 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed
 	// push seed pixel
 	push(&stack, (Point_t){seedX, seedY});
 	
+	/*
 	lastNonPoint.x = -1;
 	lastNonPoint.y = -1;
-
+	*/
+	
 	Point_t p;
 	
 	int base = pixelMatrix[seedY][seedX];
@@ -72,16 +81,17 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed
 			// Check if it passes our threshold
 			uint8_t val = pixelMatrix[ny][nx];
 			
-			if(abs(val - base) <= 15) {
+			if((abs(base - val) <= 15) && segmentMap[ny][nx] == 0) {
 				push(&stack, (Point_t){nx, ny});
 				*pixelsTraversed += 1;
-			}
+			} /*
 			else {
 				
 				lastNonPoint.x = nx;
 				lastNonPoint.y = ny;
 				
 			}
+			*/
 			
 		}
 		

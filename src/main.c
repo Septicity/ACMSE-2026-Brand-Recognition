@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
 	}
 	for(int y = 0; y < height; y++) {
 		
-		segmentMap[y] = calloc(width, sizeof(uint8_t));
+		segmentMap[y] = calloc(width, sizeof(uint8_t)); // Zero out segments
 		
 		if(!segmentMap[y]) {
 			
@@ -69,9 +69,23 @@ int main(int argc, char** argv) {
 	
 	int pixelsTraversed = 1;
 	
-	while(pixelsTraversed < (height * width)) {
+	while(countZeros(segmentMap, height, width) != 0) {
+		printf("Count Zeros: %d\n", countZeros(segmentMap, height, width));
 		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width);
 	}
+	/*
+	for(int y = 0; y < height; y++) {
+		
+		for(int x = 0; x < width; x++) {
+			
+			printf("%d ", segmentMap[y][x]);
+			
+		}
+		
+		printf("\n");
+		
+	}
+	*/
 	
 	int success = save_pixels("output.png", segmentMap, width, height);
 	
