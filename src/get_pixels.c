@@ -61,7 +61,7 @@ uint8_t** get_pixels(const char* filename, int* Width, int* Height) {
 	return res;
 }
 
-int save_pixels(const char* filename, uint8_t** pixels, int width, int height) {
+int save_pixels(const char* filename, uint16_t** pixels, int width, int height) {
 
 	// Make buffer
 	uint8_t* data = malloc(width * height * 4);
@@ -72,15 +72,15 @@ int save_pixels(const char* filename, uint8_t** pixels, int width, int height) {
 		
 		for (int x = 0; x < width; x++) {
 
-			uint8_t val = pixels[y][x];
+			uint16_t val = pixels[y][x];
 
 			int idx = (y * width + x) * 4;
 			
 			//if((int)val * 20 > 255) printf("Overflow Detected at: %d %d\n", y, x);
 
-			data[idx + 0] = (val * 20) % 255; // R
-			data[idx + 1] = (val * 20) % 255; // G
-			data[idx + 2] = (val * 20) % 255; // B
+			data[idx + 0] = (uint8_t)((val * 20) % 255); // R
+			data[idx + 1] = (uint8_t)((val * 20) % 255); // G
+			data[idx + 2] = (uint8_t)((val * 20) % 255); // B
 			data[idx + 3] = 255; // A
 		}
 		
@@ -94,7 +94,7 @@ int save_pixels(const char* filename, uint8_t** pixels, int width, int height) {
 	
 }
 
-int countZeros(uint8_t** segmentMap, int height, int width) {
+int countZeros(uint16_t** segmentMap, int height, int width) {
 	
 	int zeroCount = 0;
 	

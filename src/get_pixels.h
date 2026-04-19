@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 uint8_t** get_pixels(const char* filename, int* width, int* height);
-int save_pixels(const char* filename, uint8_t** pixels, int width, int height);
-int countZeros(uint8_t** segmentMap, int height, int width);
+int save_pixels(const char* filename, uint16_t** pixels, int width, int height);
+int countZeros(uint16_t** segmentMap, int height, int width);
 
 #endif

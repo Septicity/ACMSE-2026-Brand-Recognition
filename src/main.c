@@ -45,14 +45,14 @@ int main(int argc, char** argv) {
 	
 	printf("Loaded the image into the pixel matrix\n");
 	
-	uint8_t** segmentMap = malloc(height * sizeof(uint8_t *));
+	uint16_t** segmentMap = malloc(height * sizeof(uint16_t *));
 	if(!segmentMap) {
 		return ERROR;
 		
 	}
 	for(int y = 0; y < height; y++) {
 		
-		segmentMap[y] = calloc(width, sizeof(uint8_t)); // Zero out segments
+		segmentMap[y] = calloc(width, sizeof(uint16_t)); // Zero out segments
 		
 		if(!segmentMap[y]) {
 			
@@ -73,19 +73,6 @@ int main(int argc, char** argv) {
 		printf("Count Zeros: %d\n", countZeros(segmentMap, height, width));
 		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width);
 	}
-	/*
-	for(int y = 0; y < height; y++) {
-		
-		for(int x = 0; x < width; x++) {
-			
-			printf("%d ", segmentMap[y][x]);
-			
-		}
-		
-		printf("\n");
-		
-	}
-	*/
 	
 	int success = save_pixels("output.png", segmentMap, width, height);
 	
