@@ -5,31 +5,16 @@ void floodfill(uint8_t** pixelMatrix, uint16_t** segmentMap, int* pixelsTraverse
 
 	int seedX, seedY;
 	
-	/*
-	// Allows us to use the last detected non-section pixel as the start of the new section
-	if(lastNonPoint.x == -1 && lastNonPoint.y == -1) {
-
-		// find an unvisited seed
-		while(1) {
+	// find an unvisited seed
+	while(1) {
 			
-			seedX = rand() % width;
-			seedY = rand() % height;
+		seedX = rand() % width;
+		seedY = rand() % height;
 
-			if (segmentMap[seedY][seedX] == 0) break;
-			
-		}
+		if (segmentMap[seedY][seedX] == 0) break;
 		
 	}
-	else {
-		
-		seedX = lastNonPoint.x;
-		seedY = lastNonPoint.y;
-		
-	}
-	*/
 	
-	seedX = rand() % width;
-	seedY = rand() % height;
 
 	Stack stack;
 	if (!initStack(&stack, height * width)) return; // Start with some default value and then grow

@@ -16,6 +16,7 @@ typedef struct {
 #define SUCCESS 0
 
 /*
+
 	The following is a stack implimentation which will be used to store traversal candidates for our floodfill
 	Each operation is O(1) amortized time complexity
 
