@@ -5,6 +5,8 @@
 #include <math.h>
 #include <string.h>
 
+#include <time.h>
+
 #define GIF_IMPL
 #include "gifenc.h"
 
@@ -13,6 +15,13 @@
 #include "get_pixels.h"
 #include "datatypes.c"
 #include "floodFill.c"
+
+// Get current time in seconds
+static double get_time() {
+    struct timespec ts;
+    clock_gettime(CLOCK_MONOTONIC, &ts);
+    return ts.tv_sec + ts.tv_nsec * 1e-9;
+}
 
 static void print_usage(const char* program) {
 	
@@ -153,10 +162,17 @@ int main(int argc, char** argv) {
 	
 	int pixelsTraversed = 1;
 	
+	double start = get_time();
+	
 	while(countZeros(segmentMap, height, width) != 0) {
 		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width, deltas);
 		if(produceGif) saveGifFrame(gif, segmentMap, width, height);
 	}
+	
+	double end = get_time();
+	double time_ms = (end - start) * 1000.0;
+	
+	printf("Time: %.3f ms\n", time_ms);
 	
 	save_pixels(outputName, segmentMap, width, height);
 	
