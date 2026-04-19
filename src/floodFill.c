@@ -1,4 +1,4 @@
-void floodfill(uint8_t** pixelMatrix, uint16_t** segmentMap, int* pixelsTraversed, int height, int width) {
+void floodfill(uint8_t** pixelMatrix, uint16_t** segmentMap, int* pixelsTraversed, int height, int width, char* deltac) {
 	
 	static int iteration = 1;
 	//static Point_t lastNonPoint = {-1, -1};
@@ -63,8 +63,8 @@ void floodfill(uint8_t** pixelMatrix, uint16_t** segmentMap, int* pixelsTraverse
 			// Grab the neighbor color value 
 			// Check if it passes our threshold
 			uint8_t val = pixelMatrix[ny][nx];
-			
-			if((abs(base - val) <= 50) && segmentMap[ny][nx] == 0) {
+			int delta = atoi(deltac);
+			if((abs(base - val) <= delta) && segmentMap[ny][nx] == 0) {
 				push(&stack, (Point_t){nx, ny});
 				*pixelsTraversed += 1;
 			} /*

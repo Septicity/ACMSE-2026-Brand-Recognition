@@ -71,7 +71,7 @@ int main(int argc, char** argv) {
 	
 	while(countZeros(segmentMap, height, width) != 0) {
 		printf("Count Zeros: %d\n", countZeros(segmentMap, height, width));
-		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width);
+		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width, argv[2]);
 	}
 	
 	int success = save_pixels("output.png", segmentMap, width, height);
