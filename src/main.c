@@ -73,6 +73,8 @@ int main(int argc, char** argv) {
 		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width);
 	}
 	
+	int success = save_pixels("output.png", segmentMap, width, height);
+	
 	return SUCCESS;
 	
 }	

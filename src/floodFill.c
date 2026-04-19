@@ -1,7 +1,7 @@
 void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed, int height, int width) {
 	
 	static int iteration = 1;
-	static point_t lastNonPoint = {-1, -1};
+	static Point_t lastNonPoint = {-1, -1};
 
 	int seedX, seedY;
 	
@@ -22,7 +22,7 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed
 	else {
 		
 		seedX = lastNonPoint.x;
-		seedY = lastNonPoint.y
+		seedY = lastNonPoint.y;
 		
 	}	
 
@@ -72,7 +72,7 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed
 			
 			if(abs(val - pixelMatrix[p.y][p.x]) <= 15) {
 				push(&stack, (Point_t){nx, ny});
-				*pixelsTraversed++;
+				*pixelsTraversed += 1;
 			}
 			else {
 				
