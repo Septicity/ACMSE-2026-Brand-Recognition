@@ -2,6 +2,13 @@
 
 Team: Brand Recognition
 
+
+![Gif Visualization](diagrams/EX.gif)
+
+GIF Visualization of 15088.png being segmented
+
+
+
 ## Project structure
 
 ```
