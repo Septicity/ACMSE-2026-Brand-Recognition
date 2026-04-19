@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdint.h>
 
+#include "gifenc.c"
+
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
@@ -94,6 +96,36 @@ int save_pixels(const char* filename, uint16_t** pixels, int width, int height) 
 	
 }
 
+int saveGif(const char* filename, uint16_t** segmentMap, int width, int height) {
+    int i, j;
+
+    ge_GIF *gif = ge_new_gif(
+        filename,
+        width, height,
+        (uint8_t []) {  // palette
+           // All segments must be a fully saturated color.
+            // As such, we can use a 256-color rainbow as the palette, enumerated
+            // by hue.
+            0xFF, 0x00, 0x00, /* 0 -> black */
+            0xFF, 0x00, 0x00, /* 1 -> red */
+            0x00, 0xFF, 0x00, /* 2 -> green */
+            0x00, 0x00, 0xFF, /* 3 -> blue */
+        },
+        2,              /* palette depth == log2(# of colors) */
+        -1,             /* no transparency */
+        0               /* infinite loop */
+    );
+    /* draw some frames */
+    for (i = 0; i < 4*6/3; i++) {
+        for (j = 0; j < width*height; j++)
+            gif->frame[j] = (i*3 + j) / 6 % 4;
+        ge_add_frame(gif, 10);
+    }
+    /* remember to close the GIF */
+    ge_close_gif(gif);
+    return 0;
+}
+
 int countZeros(uint16_t** segmentMap, int height, int width) {
 	
 	int zeroCount = 0;
@@ -109,5 +141,5 @@ int countZeros(uint16_t** segmentMap, int height, int width) {
 	}
 	
 	return zeroCount;
-	
-}	
+
+}

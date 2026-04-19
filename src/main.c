@@ -76,6 +76,8 @@ int main(int argc, char** argv) {
 	
 	int success = save_pixels("output.png", segmentMap, width, height);
 	
+	saveGif("output.gif", segmentMap, height, width);
+	
 	return SUCCESS;
 	
 }	
