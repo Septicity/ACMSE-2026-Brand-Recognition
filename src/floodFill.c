@@ -36,6 +36,8 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed
 	lastNonPoint.y = -1;
 
 	Point_t p;
+	
+	int base = pixelMatrix[seedY][seedX];
 
 	// while stack not empty
 	while(pop(&stack, &p)) {
@@ -70,7 +72,7 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed
 			// Check if it passes our threshold
 			uint8_t val = pixelMatrix[ny][nx];
 			
-			if(abs(val - pixelMatrix[p.y][p.x]) <= 15) {
+			if(abs(val - base) <= 15) {
 				push(&stack, (Point_t){nx, ny});
 				*pixelsTraversed += 1;
 			}
@@ -85,7 +87,7 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed
 		
 	}
 	
-	printf("Flood Filled Segment %d", iteration);
+	printf("Flood Filled Segment %d\n", iteration);
 
 	freeStack(&stack);
 	iteration++;

@@ -76,9 +76,9 @@ int save_pixels(const char* filename, uint8_t** pixels, int width, int height) {
 
 			int idx = (y * width + x) * 4;
 
-			data[idx + 0] = val; // R
-			data[idx + 1] = val; // G
-			data[idx + 2] = val; // B
+			data[idx + 0] = val * 20; // R
+			data[idx + 1] = val * 20; // G
+			data[idx + 2] = val * 20; // B
 			data[idx + 3] = 255; // A
 		}
 		
