@@ -29,7 +29,9 @@ To build: (project has a precompiled windows binary at `/src/main`)
 
 To run:
 ```
-./src/main <filename> <delta>
+./src/main -i <inputfile> -o <outputfile> -d <delta> 
+optional: -g (produce gif(slow))
+          -h (show help)
 ```
 Output will be located at `/src/output.png`
 
