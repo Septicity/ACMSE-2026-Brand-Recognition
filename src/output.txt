@@ -2,1323 +2,369 @@ Opened file: 15088.png
 The loaded images dimensions are: 321, 481
 Loaded the image into the pixel matrix
 Created the segment matrix
-Count Zeros: 154401
-Flood Filled Segment 1
-Count Zeros: 23556
-Flood Filled Segment 2
-Count Zeros: 23511
-Flood Filled Segment 3
-Count Zeros: 6708
-Flood Filled Segment 4
-Count Zeros: 6687
-Flood Filled Segment 5
-Count Zeros: 5397
-Flood Filled Segment 6
-Count Zeros: 5186
-Flood Filled Segment 7
-Count Zeros: 5139
-Flood Filled Segment 8
-Count Zeros: 5137
-Flood Filled Segment 9
-Count Zeros: 5037
-Flood Filled Segment 10
-Count Zeros: 4969
-Flood Filled Segment 11
-Count Zeros: 4966
-Flood Filled Segment 12
-Count Zeros: 4963
-Flood Filled Segment 13
-Count Zeros: 4959
-Flood Filled Segment 14
-Count Zeros: 4941
-Flood Filled Segment 15
-Count Zeros: 4940
-Flood Filled Segment 16
-Count Zeros: 4930
-Flood Filled Segment 17
-Count Zeros: 4923
-Flood Filled Segment 18
-Count Zeros: 4919
-Flood Filled Segment 19
-Count Zeros: 4859
-Flood Filled Segment 20
-Count Zeros: 4855
-Flood Filled Segment 21
-Count Zeros: 4769
-Flood Filled Segment 22
-Count Zeros: 4676
-Flood Filled Segment 23
-Count Zeros: 4660
-Flood Filled Segment 24
-Count Zeros: 4588
-Flood Filled Segment 25
-Count Zeros: 4582
-Flood Filled Segment 26
-Count Zeros: 4507
-Flood Filled Segment 27
-Count Zeros: 4325
-Flood Filled Segment 28
-Count Zeros: 4312
-Flood Filled Segment 29
-Count Zeros: 4294
-Flood Filled Segment 30
-Count Zeros: 4275
-Flood Filled Segment 31
-Count Zeros: 4233
-Flood Filled Segment 32
-Count Zeros: 4230
-Flood Filled Segment 33
-Count Zeros: 4207
-Flood Filled Segment 34
-Count Zeros: 4034
-Flood Filled Segment 35
-Count Zeros: 4027
-Flood Filled Segment 36
-Count Zeros: 4024
-Flood Filled Segment 37
-Count Zeros: 3995
-Flood Filled Segment 38
-Count Zeros: 3993
-Flood Filled Segment 39
-Count Zeros: 3947
-Flood Filled Segment 40
-Count Zeros: 3919
-Flood Filled Segment 41
-Count Zeros: 3809
-Flood Filled Segment 42
-Count Zeros: 3800
-Flood Filled Segment 43
-Count Zeros: 3739
-Flood Filled Segment 44
-Count Zeros: 3709
-Flood Filled Segment 45
-Count Zeros: 3685
-Flood Filled Segment 46
-Count Zeros: 3669
-Flood Filled Segment 47
-Count Zeros: 3660
-Flood Filled Segment 48
-Count Zeros: 3658
-Flood Filled Segment 49
-Count Zeros: 3418
-Flood Filled Segment 50
-Count Zeros: 3409
-Flood Filled Segment 51
-Count Zeros: 3380
-Flood Filled Segment 52
-Count Zeros: 3237
-Flood Filled Segment 53
-Count Zeros: 3203
-Flood Filled Segment 54
-Count Zeros: 3202
-Flood Filled Segment 55
-Count Zeros: 3173
-Flood Filled Segment 56
-Count Zeros: 3169
-Flood Filled Segment 57
-Count Zeros: 3166
-Flood Filled Segment 58
-Count Zeros: 3154
-Flood Filled Segment 59
-Count Zeros: 3100
-Flood Filled Segment 60
-Count Zeros: 3087
-Flood Filled Segment 61
-Count Zeros: 3084
-Flood Filled Segment 62
-Count Zeros: 3078
-Flood Filled Segment 63
-Count Zeros: 2968
-Flood Filled Segment 64
-Count Zeros: 2963
-Flood Filled Segment 65
-Count Zeros: 2921
-Flood Filled Segment 66
-Count Zeros: 2915
-Flood Filled Segment 67
-Count Zeros: 2890
-Flood Filled Segment 68
-Count Zeros: 2859
-Flood Filled Segment 69
-Count Zeros: 2857
-Flood Filled Segment 70
-Count Zeros: 2856
-Flood Filled Segment 71
-Count Zeros: 2855
-Flood Filled Segment 72
-Count Zeros: 2800
-Flood Filled Segment 73
-Count Zeros: 2761
-Flood Filled Segment 74
-Count Zeros: 2744
-Flood Filled Segment 75
-Count Zeros: 2741
-Flood Filled Segment 76
-Count Zeros: 2740
-Flood Filled Segment 77
-Count Zeros: 2729
-Flood Filled Segment 78
-Count Zeros: 2727
-Flood Filled Segment 79
-Count Zeros: 2698
-Flood Filled Segment 80
-Count Zeros: 2697
-Flood Filled Segment 81
-Count Zeros: 2692
-Flood Filled Segment 82
-Count Zeros: 2682
-Flood Filled Segment 83
-Count Zeros: 2675
-Flood Filled Segment 84
-Count Zeros: 2657
-Flood Filled Segment 85
-Count Zeros: 2530
-Flood Filled Segment 86
-Count Zeros: 2508
-Flood Filled Segment 87
-Count Zeros: 2476
-Flood Filled Segment 88
-Count Zeros: 2462
-Flood Filled Segment 89
-Count Zeros: 2458
-Flood Filled Segment 90
-Count Zeros: 2455
-Flood Filled Segment 91
-Count Zeros: 2450
-Flood Filled Segment 92
-Count Zeros: 2432
-Flood Filled Segment 93
-Count Zeros: 2428
-Flood Filled Segment 94
-Count Zeros: 2400
-Flood Filled Segment 95
-Count Zeros: 2389
-Flood Filled Segment 96
-Count Zeros: 2388
-Flood Filled Segment 97
-Count Zeros: 2370
-Flood Filled Segment 98
-Count Zeros: 2305
-Flood Filled Segment 99
-Count Zeros: 2290
-Flood Filled Segment 100
-Count Zeros: 2287
-Flood Filled Segment 101
-Count Zeros: 2286
-Flood Filled Segment 102
-Count Zeros: 2285
-Flood Filled Segment 103
-Count Zeros: 2215
-Flood Filled Segment 104
-Count Zeros: 2206
-Flood Filled Segment 105
-Count Zeros: 2166
-Flood Filled Segment 106
-Count Zeros: 2154
-Flood Filled Segment 107
-Count Zeros: 2149
-Flood Filled Segment 108
-Count Zeros: 2135
-Flood Filled Segment 109
-Count Zeros: 2134
-Flood Filled Segment 110
-Count Zeros: 2123
-Flood Filled Segment 111
-Count Zeros: 2111
-Flood Filled Segment 112
-Count Zeros: 2108
-Flood Filled Segment 113
-Count Zeros: 2104
-Flood Filled Segment 114
-Count Zeros: 2065
-Flood Filled Segment 115
-Count Zeros: 2063
-Flood Filled Segment 116
-Count Zeros: 2047
-Flood Filled Segment 117
-Count Zeros: 2032
-Flood Filled Segment 118
-Count Zeros: 1998
-Flood Filled Segment 119
-Count Zeros: 1994
-Flood Filled Segment 120
-Count Zeros: 1979
-Flood Filled Segment 121
-Count Zeros: 1938
-Flood Filled Segment 122
-Count Zeros: 1936
-Flood Filled Segment 123
-Count Zeros: 1930
-Flood Filled Segment 124
-Count Zeros: 1920
-Flood Filled Segment 125
-Count Zeros: 1892
-Flood Filled Segment 126
-Count Zeros: 1887
-Flood Filled Segment 127
-Count Zeros: 1871
-Flood Filled Segment 128
-Count Zeros: 1857
-Flood Filled Segment 129
-Count Zeros: 1851
-Flood Filled Segment 130
-Count Zeros: 1849
-Flood Filled Segment 131
-Count Zeros: 1845
-Flood Filled Segment 132
-Count Zeros: 1838
-Flood Filled Segment 133
-Count Zeros: 1836
-Flood Filled Segment 134
-Count Zeros: 1831
-Flood Filled Segment 135
-Count Zeros: 1803
-Flood Filled Segment 136
-Count Zeros: 1797
-Flood Filled Segment 137
-Count Zeros: 1793
-Flood Filled Segment 138
-Count Zeros: 1787
-Flood Filled Segment 139
-Count Zeros: 1749
-Flood Filled Segment 140
-Count Zeros: 1747
-Flood Filled Segment 141
-Count Zeros: 1726
-Flood Filled Segment 142
-Count Zeros: 1722
-Flood Filled Segment 143
-Count Zeros: 1718
-Flood Filled Segment 144
-Count Zeros: 1716
-Flood Filled Segment 145
-Count Zeros: 1706
-Flood Filled Segment 146
-Count Zeros: 1697
-Flood Filled Segment 147
-Count Zeros: 1692
-Flood Filled Segment 148
-Count Zeros: 1669
-Flood Filled Segment 149
-Count Zeros: 1666
-Flood Filled Segment 150
-Count Zeros: 1624
-Flood Filled Segment 151
-Count Zeros: 1600
-Flood Filled Segment 152
-Count Zeros: 1581
-Flood Filled Segment 153
-Count Zeros: 1565
-Flood Filled Segment 154
-Count Zeros: 1558
-Flood Filled Segment 155
-Count Zeros: 1557
-Flood Filled Segment 156
-Count Zeros: 1552
-Flood Filled Segment 157
-Count Zeros: 1546
-Flood Filled Segment 158
-Count Zeros: 1532
-Flood Filled Segment 159
-Count Zeros: 1524
-Flood Filled Segment 160
-Count Zeros: 1523
-Flood Filled Segment 161
-Count Zeros: 1521
-Flood Filled Segment 162
-Count Zeros: 1508
-Flood Filled Segment 163
-Count Zeros: 1505
-Flood Filled Segment 164
-Count Zeros: 1504
-Flood Filled Segment 165
-Count Zeros: 1498
-Flood Filled Segment 166
-Count Zeros: 1496
-Flood Filled Segment 167
-Count Zeros: 1494
-Flood Filled Segment 168
-Count Zeros: 1491
-Flood Filled Segment 169
-Count Zeros: 1489
-Flood Filled Segment 170
-Count Zeros: 1481
-Flood Filled Segment 171
-Count Zeros: 1480
-Flood Filled Segment 172
-Count Zeros: 1479
-Flood Filled Segment 173
-Count Zeros: 1478
-Flood Filled Segment 174
-Count Zeros: 1476
-Flood Filled Segment 175
-Count Zeros: 1452
-Flood Filled Segment 176
-Count Zeros: 1418
-Flood Filled Segment 177
-Count Zeros: 1415
-Flood Filled Segment 178
-Count Zeros: 1389
-Flood Filled Segment 179
-Count Zeros: 1382
-Flood Filled Segment 180
-Count Zeros: 1379
-Flood Filled Segment 181
-Count Zeros: 1369
-Flood Filled Segment 182
-Count Zeros: 1368
-Flood Filled Segment 183
-Count Zeros: 1359
-Flood Filled Segment 184
-Count Zeros: 1354
-Flood Filled Segment 185
-Count Zeros: 1347
-Flood Filled Segment 186
-Count Zeros: 1346
-Flood Filled Segment 187
-Count Zeros: 1342
-Flood Filled Segment 188
-Count Zeros: 1336
-Flood Filled Segment 189
-Count Zeros: 1322
-Flood Filled Segment 190
-Count Zeros: 1317
-Flood Filled Segment 191
-Count Zeros: 1313
-Flood Filled Segment 192
-Count Zeros: 1312
-Flood Filled Segment 193
-Count Zeros: 1296
-Flood Filled Segment 194
-Count Zeros: 1288
-Flood Filled Segment 195
-Count Zeros: 1267
-Flood Filled Segment 196
-Count Zeros: 1265
-Flood Filled Segment 197
-Count Zeros: 1242
-Flood Filled Segment 198
-Count Zeros: 1213
-Flood Filled Segment 199
-Count Zeros: 1210
-Flood Filled Segment 200
-Count Zeros: 1209
-Flood Filled Segment 201
-Count Zeros: 1184
-Flood Filled Segment 202
-Count Zeros: 1179
-Flood Filled Segment 203
-Count Zeros: 1177
-Flood Filled Segment 204
-Count Zeros: 1160
-Flood Filled Segment 205
-Count Zeros: 1144
-Flood Filled Segment 206
-Count Zeros: 1136
-Flood Filled Segment 207
-Count Zeros: 1135
-Flood Filled Segment 208
-Count Zeros: 1133
-Flood Filled Segment 209
-Count Zeros: 1132
-Flood Filled Segment 210
-Count Zeros: 1131
-Flood Filled Segment 211
-Count Zeros: 1127
-Flood Filled Segment 212
-Count Zeros: 1123
-Flood Filled Segment 213
-Count Zeros: 1118
-Flood Filled Segment 214
-Count Zeros: 1117
-Flood Filled Segment 215
-Count Zeros: 1116
-Flood Filled Segment 216
-Count Zeros: 1111
-Flood Filled Segment 217
-Count Zeros: 1100
-Flood Filled Segment 218
-Count Zeros: 1088
-Flood Filled Segment 219
-Count Zeros: 1076
-Flood Filled Segment 220
-Count Zeros: 1074
-Flood Filled Segment 221
-Count Zeros: 1061
-Flood Filled Segment 222
-Count Zeros: 1060
-Flood Filled Segment 223
-Count Zeros: 1052
-Flood Filled Segment 224
-Count Zeros: 1039
-Flood Filled Segment 225
-Count Zeros: 1037
-Flood Filled Segment 226
-Count Zeros: 1029
-Flood Filled Segment 227
-Count Zeros: 1025
-Flood Filled Segment 228
-Count Zeros: 1021
-Flood Filled Segment 229
-Count Zeros: 1019
-Flood Filled Segment 230
-Count Zeros: 1017
-Flood Filled Segment 231
-Count Zeros: 1015
-Flood Filled Segment 232
-Count Zeros: 999
-Flood Filled Segment 233
-Count Zeros: 998
-Flood Filled Segment 234
-Count Zeros: 997
-Flood Filled Segment 235
-Count Zeros: 991
-Flood Filled Segment 236
-Count Zeros: 977
-Flood Filled Segment 237
-Count Zeros: 975
-Flood Filled Segment 238
-Count Zeros: 973
-Flood Filled Segment 239
-Count Zeros: 972
-Flood Filled Segment 240
-Count Zeros: 971
-Flood Filled Segment 241
-Count Zeros: 948
-Flood Filled Segment 242
-Count Zeros: 942
-Flood Filled Segment 243
-Count Zeros: 937
-Flood Filled Segment 244
-Count Zeros: 926
-Flood Filled Segment 245
-Count Zeros: 925
-Flood Filled Segment 246
-Count Zeros: 924
-Flood Filled Segment 247
-Count Zeros: 919
-Flood Filled Segment 248
-Count Zeros: 918
-Flood Filled Segment 249
-Count Zeros: 907
-Flood Filled Segment 250
-Count Zeros: 903
-Flood Filled Segment 251
-Count Zeros: 899
-Flood Filled Segment 252
-Count Zeros: 896
-Flood Filled Segment 253
-Count Zeros: 885
-Flood Filled Segment 254
-Count Zeros: 883
-Flood Filled Segment 255
-Count Zeros: 882
-Flood Filled Segment 256
-Count Zeros: 877
-Flood Filled Segment 257
-Count Zeros: 875
-Flood Filled Segment 258
-Count Zeros: 874
-Flood Filled Segment 259
-Count Zeros: 873
-Flood Filled Segment 260
-Count Zeros: 864
-Flood Filled Segment 261
-Count Zeros: 863
-Flood Filled Segment 262
-Count Zeros: 859
-Flood Filled Segment 263
-Count Zeros: 858
-Flood Filled Segment 264
-Count Zeros: 855
-Flood Filled Segment 265
-Count Zeros: 852
-Flood Filled Segment 266
-Count Zeros: 847
-Flood Filled Segment 267
-Count Zeros: 836
-Flood Filled Segment 268
-Count Zeros: 828
-Flood Filled Segment 269
-Count Zeros: 827
-Flood Filled Segment 270
-Count Zeros: 822
-Flood Filled Segment 271
-Count Zeros: 821
-Flood Filled Segment 272
-Count Zeros: 819
-Flood Filled Segment 273
-Count Zeros: 817
-Flood Filled Segment 274
-Count Zeros: 814
-Flood Filled Segment 275
-Count Zeros: 812
-Flood Filled Segment 276
-Count Zeros: 803
-Flood Filled Segment 277
-Count Zeros: 801
-Flood Filled Segment 278
-Count Zeros: 794
-Flood Filled Segment 279
-Count Zeros: 792
-Flood Filled Segment 280
-Count Zeros: 790
-Flood Filled Segment 281
-Count Zeros: 788
-Flood Filled Segment 282
-Count Zeros: 786
-Flood Filled Segment 283
-Count Zeros: 785
-Flood Filled Segment 284
-Count Zeros: 780
-Flood Filled Segment 285
-Count Zeros: 774
-Flood Filled Segment 286
-Count Zeros: 767
-Flood Filled Segment 287
-Count Zeros: 763
-Flood Filled Segment 288
-Count Zeros: 760
-Flood Filled Segment 289
-Count Zeros: 758
-Flood Filled Segment 290
-Count Zeros: 756
-Flood Filled Segment 291
-Count Zeros: 754
-Flood Filled Segment 292
-Count Zeros: 753
-Flood Filled Segment 293
-Count Zeros: 747
-Flood Filled Segment 294
-Count Zeros: 745
-Flood Filled Segment 295
-Count Zeros: 743
-Flood Filled Segment 296
-Count Zeros: 733
-Flood Filled Segment 297
-Count Zeros: 732
-Flood Filled Segment 298
-Count Zeros: 730
-Flood Filled Segment 299
-Count Zeros: 729
-Flood Filled Segment 300
-Count Zeros: 728
-Flood Filled Segment 301
-Count Zeros: 720
-Flood Filled Segment 302
-Count Zeros: 717
-Flood Filled Segment 303
-Count Zeros: 708
-Flood Filled Segment 304
-Count Zeros: 707
-Flood Filled Segment 305
-Count Zeros: 695
-Flood Filled Segment 306
-Count Zeros: 694
-Flood Filled Segment 307
-Count Zeros: 693
-Flood Filled Segment 308
-Count Zeros: 688
-Flood Filled Segment 309
-Count Zeros: 684
-Flood Filled Segment 310
-Count Zeros: 680
-Flood Filled Segment 311
-Count Zeros: 679
-Flood Filled Segment 312
-Count Zeros: 678
-Flood Filled Segment 313
-Count Zeros: 674
-Flood Filled Segment 314
-Count Zeros: 673
-Flood Filled Segment 315
-Count Zeros: 672
-Flood Filled Segment 316
-Count Zeros: 666
-Flood Filled Segment 317
-Count Zeros: 655
-Flood Filled Segment 318
-Count Zeros: 650
-Flood Filled Segment 319
-Count Zeros: 649
-Flood Filled Segment 320
-Count Zeros: 637
-Flood Filled Segment 321
-Count Zeros: 636
-Flood Filled Segment 322
-Count Zeros: 635
-Flood Filled Segment 323
-Count Zeros: 633
-Flood Filled Segment 324
-Count Zeros: 632
-Flood Filled Segment 325
-Count Zeros: 631
-Flood Filled Segment 326
-Count Zeros: 627
-Flood Filled Segment 327
-Count Zeros: 618
-Flood Filled Segment 328
-Count Zeros: 615
-Flood Filled Segment 329
-Count Zeros: 603
-Flood Filled Segment 330
-Count Zeros: 601
-Flood Filled Segment 331
-Count Zeros: 596
-Flood Filled Segment 332
-Count Zeros: 595
-Flood Filled Segment 333
-Count Zeros: 592
-Flood Filled Segment 334
-Count Zeros: 590
-Flood Filled Segment 335
-Count Zeros: 580
-Flood Filled Segment 336
-Count Zeros: 578
-Flood Filled Segment 337
-Count Zeros: 576
-Flood Filled Segment 338
-Count Zeros: 571
-Flood Filled Segment 339
-Count Zeros: 570
-Flood Filled Segment 340
-Count Zeros: 568
-Flood Filled Segment 341
-Count Zeros: 564
-Flood Filled Segment 342
-Count Zeros: 559
-Flood Filled Segment 343
-Count Zeros: 558
-Flood Filled Segment 344
-Count Zeros: 555
-Flood Filled Segment 345
-Count Zeros: 554
-Flood Filled Segment 346
-Count Zeros: 553
-Flood Filled Segment 347
-Count Zeros: 552
-Flood Filled Segment 348
-Count Zeros: 551
-Flood Filled Segment 349
-Count Zeros: 543
-Flood Filled Segment 350
-Count Zeros: 542
-Flood Filled Segment 351
-Count Zeros: 541
-Flood Filled Segment 352
-Count Zeros: 530
-Flood Filled Segment 353
-Count Zeros: 529
-Flood Filled Segment 354
-Count Zeros: 528
-Flood Filled Segment 355
-Count Zeros: 527
-Flood Filled Segment 356
-Count Zeros: 525
-Flood Filled Segment 357
-Count Zeros: 524
-Flood Filled Segment 358
-Count Zeros: 521
-Flood Filled Segment 359
-Count Zeros: 520
-Flood Filled Segment 360
-Count Zeros: 513
-Flood Filled Segment 361
-Count Zeros: 511
-Flood Filled Segment 362
-Count Zeros: 510
-Flood Filled Segment 363
-Count Zeros: 508
-Flood Filled Segment 364
-Count Zeros: 506
-Flood Filled Segment 365
-Count Zeros: 503
-Flood Filled Segment 366
-Count Zeros: 489
-Flood Filled Segment 367
-Count Zeros: 488
-Flood Filled Segment 368
-Count Zeros: 486
-Flood Filled Segment 369
-Count Zeros: 478
-Flood Filled Segment 370
-Count Zeros: 476
-Flood Filled Segment 371
-Count Zeros: 474
-Flood Filled Segment 372
-Count Zeros: 473
-Flood Filled Segment 373
-Count Zeros: 472
-Flood Filled Segment 374
-Count Zeros: 470
-Flood Filled Segment 375
-Count Zeros: 467
-Flood Filled Segment 376
-Count Zeros: 462
-Flood Filled Segment 377
-Count Zeros: 461
-Flood Filled Segment 378
-Count Zeros: 457
-Flood Filled Segment 379
-Count Zeros: 448
-Flood Filled Segment 380
-Count Zeros: 446
-Flood Filled Segment 381
-Count Zeros: 444
-Flood Filled Segment 382
-Count Zeros: 439
-Flood Filled Segment 383
-Count Zeros: 432
-Flood Filled Segment 384
-Count Zeros: 431
-Flood Filled Segment 385
-Count Zeros: 430
-Flood Filled Segment 386
-Count Zeros: 426
-Flood Filled Segment 387
-Count Zeros: 425
-Flood Filled Segment 388
-Count Zeros: 424
-Flood Filled Segment 389
-Count Zeros: 421
-Flood Filled Segment 390
-Count Zeros: 420
-Flood Filled Segment 391
-Count Zeros: 419
-Flood Filled Segment 392
-Count Zeros: 418
-Flood Filled Segment 393
-Count Zeros: 417
-Flood Filled Segment 394
-Count Zeros: 416
-Flood Filled Segment 395
-Count Zeros: 415
-Flood Filled Segment 396
-Count Zeros: 412
-Flood Filled Segment 397
-Count Zeros: 411
-Flood Filled Segment 398
-Count Zeros: 409
-Flood Filled Segment 399
-Count Zeros: 408
-Flood Filled Segment 400
-Count Zeros: 402
-Flood Filled Segment 401
-Count Zeros: 399
-Flood Filled Segment 402
-Count Zeros: 398
-Flood Filled Segment 403
-Count Zeros: 397
-Flood Filled Segment 404
-Count Zeros: 396
-Flood Filled Segment 405
-Count Zeros: 394
-Flood Filled Segment 406
-Count Zeros: 392
-Flood Filled Segment 407
-Count Zeros: 391
-Flood Filled Segment 408
-Count Zeros: 390
-Flood Filled Segment 409
-Count Zeros: 388
-Flood Filled Segment 410
-Count Zeros: 380
-Flood Filled Segment 411
-Count Zeros: 379
-Flood Filled Segment 412
-Count Zeros: 378
-Flood Filled Segment 413
-Count Zeros: 377
-Flood Filled Segment 414
-Count Zeros: 376
-Flood Filled Segment 415
-Count Zeros: 374
-Flood Filled Segment 416
-Count Zeros: 373
-Flood Filled Segment 417
-Count Zeros: 372
-Flood Filled Segment 418
-Count Zeros: 370
-Flood Filled Segment 419
-Count Zeros: 369
-Flood Filled Segment 420
-Count Zeros: 368
-Flood Filled Segment 421
-Count Zeros: 367
-Flood Filled Segment 422
-Count Zeros: 363
-Flood Filled Segment 423
-Count Zeros: 361
-Flood Filled Segment 424
-Count Zeros: 359
-Flood Filled Segment 425
-Count Zeros: 357
-Flood Filled Segment 426
-Count Zeros: 355
-Flood Filled Segment 427
-Count Zeros: 348
-Flood Filled Segment 428
-Count Zeros: 347
-Flood Filled Segment 429
-Count Zeros: 346
-Flood Filled Segment 430
-Count Zeros: 342
-Flood Filled Segment 431
-Count Zeros: 340
-Flood Filled Segment 432
-Count Zeros: 339
-Flood Filled Segment 433
-Count Zeros: 338
-Flood Filled Segment 434
-Count Zeros: 336
-Flood Filled Segment 435
-Count Zeros: 334
-Flood Filled Segment 436
-Count Zeros: 333
-Flood Filled Segment 437
-Count Zeros: 331
-Flood Filled Segment 438
-Count Zeros: 330
-Flood Filled Segment 439
-Count Zeros: 325
-Flood Filled Segment 440
-Count Zeros: 321
-Flood Filled Segment 441
-Count Zeros: 320
-Flood Filled Segment 442
-Count Zeros: 316
-Flood Filled Segment 443
-Count Zeros: 315
-Flood Filled Segment 444
-Count Zeros: 314
-Flood Filled Segment 445
-Count Zeros: 313
-Flood Filled Segment 446
-Count Zeros: 307
-Flood Filled Segment 447
-Count Zeros: 305
-Flood Filled Segment 448
-Count Zeros: 304
-Flood Filled Segment 449
-Count Zeros: 302
-Flood Filled Segment 450
-Count Zeros: 298
-Flood Filled Segment 451
-Count Zeros: 297
-Flood Filled Segment 452
-Count Zeros: 294
-Flood Filled Segment 453
-Count Zeros: 293
-Flood Filled Segment 454
-Count Zeros: 291
-Flood Filled Segment 455
-Count Zeros: 289
-Flood Filled Segment 456
-Count Zeros: 285
-Flood Filled Segment 457
-Count Zeros: 281
-Flood Filled Segment 458
-Count Zeros: 280
-Flood Filled Segment 459
-Count Zeros: 274
-Flood Filled Segment 460
-Count Zeros: 272
-Flood Filled Segment 461
-Count Zeros: 271
-Flood Filled Segment 462
-Count Zeros: 270
-Flood Filled Segment 463
-Count Zeros: 267
-Flood Filled Segment 464
-Count Zeros: 265
-Flood Filled Segment 465
-Count Zeros: 264
-Flood Filled Segment 466
-Count Zeros: 261
-Flood Filled Segment 467
-Count Zeros: 260
-Flood Filled Segment 468
-Count Zeros: 259
-Flood Filled Segment 469
-Count Zeros: 258
-Flood Filled Segment 470
-Count Zeros: 254
-Flood Filled Segment 471
-Count Zeros: 253
-Flood Filled Segment 472
-Count Zeros: 250
-Flood Filled Segment 473
-Count Zeros: 249
-Flood Filled Segment 474
-Count Zeros: 248
-Flood Filled Segment 475
-Count Zeros: 247
-Flood Filled Segment 476
-Count Zeros: 246
-Flood Filled Segment 477
-Count Zeros: 244
-Flood Filled Segment 478
-Count Zeros: 243
-Flood Filled Segment 479
-Count Zeros: 242
-Flood Filled Segment 480
-Count Zeros: 241
-Flood Filled Segment 481
-Count Zeros: 240
-Flood Filled Segment 482
-Count Zeros: 238
-Flood Filled Segment 483
-Count Zeros: 236
-Flood Filled Segment 484
-Count Zeros: 235
-Flood Filled Segment 485
-Count Zeros: 233
-Flood Filled Segment 486
-Count Zeros: 232
-Flood Filled Segment 487
-Count Zeros: 231
-Flood Filled Segment 488
-Count Zeros: 230
-Flood Filled Segment 489
-Count Zeros: 229
-Flood Filled Segment 490
-Count Zeros: 226
-Flood Filled Segment 491
-Count Zeros: 225
-Flood Filled Segment 492
-Count Zeros: 224
-Flood Filled Segment 493
-Count Zeros: 223
-Flood Filled Segment 494
-Count Zeros: 221
-Flood Filled Segment 495
-Count Zeros: 220
-Flood Filled Segment 496
-Count Zeros: 209
-Flood Filled Segment 497
-Count Zeros: 207
-Flood Filled Segment 498
-Count Zeros: 206
-Flood Filled Segment 499
-Count Zeros: 204
-Flood Filled Segment 500
-Count Zeros: 201
-Flood Filled Segment 501
-Count Zeros: 200
-Flood Filled Segment 502
-Count Zeros: 198
-Flood Filled Segment 503
-Count Zeros: 196
-Flood Filled Segment 504
-Count Zeros: 193
-Flood Filled Segment 505
-Count Zeros: 192
-Flood Filled Segment 506
-Count Zeros: 191
-Flood Filled Segment 507
-Count Zeros: 189
-Flood Filled Segment 508
-Count Zeros: 188
-Flood Filled Segment 509
-Count Zeros: 187
-Flood Filled Segment 510
-Count Zeros: 186
-Flood Filled Segment 511
-Count Zeros: 185
-Flood Filled Segment 512
-Count Zeros: 182
-Flood Filled Segment 513
-Count Zeros: 178
-Flood Filled Segment 514
-Count Zeros: 176
-Flood Filled Segment 515
-Count Zeros: 175
-Flood Filled Segment 516
-Count Zeros: 174
-Flood Filled Segment 517
-Count Zeros: 172
-Flood Filled Segment 518
-Count Zeros: 171
-Flood Filled Segment 519
-Count Zeros: 170
-Flood Filled Segment 520
-Count Zeros: 169
-Flood Filled Segment 521
-Count Zeros: 168
-Flood Filled Segment 522
-Count Zeros: 167
-Flood Filled Segment 523
-Count Zeros: 166
-Flood Filled Segment 524
-Count Zeros: 165
-Flood Filled Segment 525
-Count Zeros: 163
-Flood Filled Segment 526
-Count Zeros: 159
-Flood Filled Segment 527
-Count Zeros: 158
-Flood Filled Segment 528
-Count Zeros: 157
-Flood Filled Segment 529
-Count Zeros: 156
-Flood Filled Segment 530
-Count Zeros: 154
-Flood Filled Segment 531
-Count Zeros: 153
-Flood Filled Segment 532
-Count Zeros: 150
-Flood Filled Segment 533
-Count Zeros: 148
-Flood Filled Segment 534
-Count Zeros: 147
-Flood Filled Segment 535
-Count Zeros: 146
-Flood Filled Segment 536
-Count Zeros: 145
-Flood Filled Segment 537
-Count Zeros: 143
-Flood Filled Segment 538
-Count Zeros: 142
-Flood Filled Segment 539
-Count Zeros: 141
-Flood Filled Segment 540
-Count Zeros: 140
-Flood Filled Segment 541
-Count Zeros: 139
-Flood Filled Segment 542
-Count Zeros: 138
-Flood Filled Segment 543
-Count Zeros: 137
-Flood Filled Segment 544
-Count Zeros: 136
-Flood Filled Segment 545
-Count Zeros: 135
-Flood Filled Segment 546
-Count Zeros: 132
-Flood Filled Segment 547
-Count Zeros: 130
-Flood Filled Segment 548
-Count Zeros: 129
-Flood Filled Segment 549
-Count Zeros: 128
-Flood Filled Segment 550
-Count Zeros: 127
-Flood Filled Segment 551
-Count Zeros: 126
-Flood Filled Segment 552
-Count Zeros: 125
-Flood Filled Segment 553
-Count Zeros: 124
-Flood Filled Segment 554
-Count Zeros: 123
-Flood Filled Segment 555
-Count Zeros: 122
-Flood Filled Segment 556
-Count Zeros: 120
-Flood Filled Segment 557
-Count Zeros: 119
-Flood Filled Segment 558
-Count Zeros: 117
-Flood Filled Segment 559
-Count Zeros: 116
-Flood Filled Segment 560
-Count Zeros: 115
-Flood Filled Segment 561
-Count Zeros: 114
-Flood Filled Segment 562
-Count Zeros: 113
-Flood Filled Segment 563
-Count Zeros: 111
-Flood Filled Segment 564
-Count Zeros: 110
-Flood Filled Segment 565
-Count Zeros: 108
-Flood Filled Segment 566
-Count Zeros: 107
-Flood Filled Segment 567
-Count Zeros: 106
-Flood Filled Segment 568
-Count Zeros: 105
-Flood Filled Segment 569
-Count Zeros: 104
-Flood Filled Segment 570
-Count Zeros: 101
-Flood Filled Segment 571
-Count Zeros: 100
-Flood Filled Segment 572
-Count Zeros: 99
-Flood Filled Segment 573
-Count Zeros: 98
-Flood Filled Segment 574
-Count Zeros: 97
-Flood Filled Segment 575
-Count Zeros: 96
-Flood Filled Segment 576
-Count Zeros: 95
-Flood Filled Segment 577
-Count Zeros: 92
-Flood Filled Segment 578
-Count Zeros: 91
-Flood Filled Segment 579
-Count Zeros: 90
-Flood Filled Segment 580
-Count Zeros: 88
-Flood Filled Segment 581
-Count Zeros: 87
-Flood Filled Segment 582
-Count Zeros: 85
-Flood Filled Segment 583
-Count Zeros: 84
-Flood Filled Segment 584
-Count Zeros: 83
-Flood Filled Segment 585
-Count Zeros: 82
-Flood Filled Segment 586
-Count Zeros: 81
-Flood Filled Segment 587
-Count Zeros: 79
-Flood Filled Segment 588
-Count Zeros: 78
-Flood Filled Segment 589
-Count Zeros: 77
-Flood Filled Segment 590
-Count Zeros: 76
-Flood Filled Segment 591
-Count Zeros: 75
-Flood Filled Segment 592
-Count Zeros: 74
-Flood Filled Segment 593
-Count Zeros: 73
-Flood Filled Segment 594
-Count Zeros: 72
-Flood Filled Segment 595
-Count Zeros: 71
-Flood Filled Segment 596
-Count Zeros: 70
-Flood Filled Segment 597
-Count Zeros: 69
-Flood Filled Segment 598
-Count Zeros: 67
-Flood Filled Segment 599
-Count Zeros: 66
-Flood Filled Segment 600
-Count Zeros: 65
-Flood Filled Segment 601
-Count Zeros: 64
-Flood Filled Segment 602
-Count Zeros: 63
-Flood Filled Segment 603
-Count Zeros: 61
-Flood Filled Segment 604
-Count Zeros: 60
-Flood Filled Segment 605
-Count Zeros: 59
-Flood Filled Segment 606
-Count Zeros: 57
-Flood Filled Segment 607
-Count Zeros: 56
-Flood Filled Segment 608
-Count Zeros: 54
-Flood Filled Segment 609
-Count Zeros: 53
-Flood Filled Segment 610
-Count Zeros: 52
-Flood Filled Segment 611
-Count Zeros: 50
-Flood Filled Segment 612
-Count Zeros: 49
-Flood Filled Segment 613
-Count Zeros: 48
-Flood Filled Segment 614
-Count Zeros: 47
-Flood Filled Segment 615
-Count Zeros: 46
-Flood Filled Segment 616
-Count Zeros: 45
-Flood Filled Segment 617
-Count Zeros: 44
-Flood Filled Segment 618
-Count Zeros: 43
-Flood Filled Segment 619
-Count Zeros: 42
-Flood Filled Segment 620
-Count Zeros: 41
-Flood Filled Segment 621
-Count Zeros: 40
-Flood Filled Segment 622
-Count Zeros: 39
-Flood Filled Segment 623
-Count Zeros: 38
-Flood Filled Segment 624
-Count Zeros: 37
-Flood Filled Segment 625
-Count Zeros: 36
-Flood Filled Segment 626
-Count Zeros: 35
-Flood Filled Segment 627
-Count Zeros: 34
-Flood Filled Segment 628
-Count Zeros: 33
-Flood Filled Segment 629
-Count Zeros: 32
-Flood Filled Segment 630
-Count Zeros: 31
-Flood Filled Segment 631
-Count Zeros: 30
-Flood Filled Segment 632
-Count Zeros: 29
-Flood Filled Segment 633
-Count Zeros: 28
-Flood Filled Segment 634
-Count Zeros: 27
-Flood Filled Segment 635
-Count Zeros: 26
-Flood Filled Segment 636
-Count Zeros: 25
-Flood Filled Segment 637
-Count Zeros: 23
-Flood Filled Segment 638
-Count Zeros: 22
-Flood Filled Segment 639
-Count Zeros: 21
-Flood Filled Segment 640
-Count Zeros: 20
-Flood Filled Segment 641
-Count Zeros: 19
-Flood Filled Segment 642
-Count Zeros: 18
-Flood Filled Segment 643
-Count Zeros: 17
-Flood Filled Segment 644
-Count Zeros: 16
-Flood Filled Segment 645
-Count Zeros: 15
-Flood Filled Segment 646
-Count Zeros: 14
-Flood Filled Segment 647
-Count Zeros: 13
-Flood Filled Segment 648
-Count Zeros: 12
-Flood Filled Segment 649
-Count Zeros: 11
-Flood Filled Segment 650
-Count Zeros: 10
-Flood Filled Segment 651
-Count Zeros: 9
-Flood Filled Segment 652
-Count Zeros: 8
-Flood Filled Segment 653
-Count Zeros: 7
-Flood Filled Segment 654
-Count Zeros: 6
-Flood Filled Segment 655
-Count Zeros: 5
-Flood Filled Segment 656
-Count Zeros: 4
-Flood Filled Segment 657
-Count Zeros: 3
-Flood Filled Segment 658
-Count Zeros: 2
-Flood Filled Segment 659
-Count Zeros: 1
-Flood Filled Segment 660
+Saved a frame! 154352 
+Saved a frame! 152214 
+Saved a frame! 111386 
+Saved a frame! 109924 
+Saved a frame! 109740 
+Saved a frame! 109457 
+Saved a frame! 109448 
+Saved a frame! 109407 
+Saved a frame! 109149 
+Saved a frame! 109133 
+Saved a frame! 104622 
+Saved a frame! 104540 
+Saved a frame! 104437 
+Saved a frame! 77920 
+Saved a frame! 77918 
+Saved a frame! 75822 
+Saved a frame! 71517 
+Saved a frame! 70205 
+Saved a frame! 70179 
+Saved a frame! 70153 
+Saved a frame! 70075 
+Saved a frame! 69149 
+Saved a frame! 69114 
+Saved a frame! 69052 
+Saved a frame! 61911 
+Saved a frame! 61842 
+Saved a frame! 61840 
+Saved a frame! 61815 
+Saved a frame! 61770 
+Saved a frame! 61317 
+Saved a frame! 61290 
+Saved a frame! 61283 
+Saved a frame! 61120 
+Saved a frame! 61097 
+Saved a frame! 60781 
+Saved a frame! 60530 
+Saved a frame! 60490 
+Saved a frame! 60397 
+Saved a frame! 58713 
+Saved a frame! 58704 
+Saved a frame! 58654 
+Saved a frame! 58481 
+Saved a frame! 58480 
+Saved a frame! 58393 
+Saved a frame! 58353 
+Saved a frame! 58351 
+Saved a frame! 57766 
+Saved a frame! 57541 
+Saved a frame! 57429 
+Saved a frame! 57392 
+Saved a frame! 56821 
+Saved a frame! 56720 
+Saved a frame! 56691 
+Saved a frame! 56689 
+Saved a frame! 56352 
+Saved a frame! 56322 
+Saved a frame! 55808 
+Saved a frame! 55706 
+Saved a frame! 54800 
+Saved a frame! 54765 
+Saved a frame! 54764 
+Saved a frame! 53638 
+Saved a frame! 53014 
+Saved a frame! 53005 
+Saved a frame! 52853 
+Saved a frame! 52849 
+Saved a frame! 52804 
+Saved a frame! 52693 
+Saved a frame! 52110 
+Saved a frame! 52062 
+Saved a frame! 51867 
+Saved a frame! 51859 
+Saved a frame! 51780 
+Saved a frame! 51759 
+Saved a frame! 51753 
+Saved a frame! 51747 
+Saved a frame! 51718 
+Saved a frame! 50728 
+Saved a frame! 50650 
+Saved a frame! 50632 
+Saved a frame! 50617 
+Saved a frame! 50591 
+Saved a frame! 50196 
+Saved a frame! 50193 
+Saved a frame! 50186 
+Saved a frame! 50165 
+Saved a frame! 50154 
+Saved a frame! 50023 
+Saved a frame! 49009 
+Saved a frame! 48797 
+Saved a frame! 48734 
+Saved a frame! 47637 
+Saved a frame! 47379 
+Saved a frame! 47156 
+Saved a frame! 46089 
+Saved a frame! 46075 
+Saved a frame! 46072 
+Saved a frame! 45589 
+Saved a frame! 45566 
+Saved a frame! 45513 
+Saved a frame! 45511 
+Saved a frame! 45483 
+Saved a frame! 45395 
+Saved a frame! 44985 
+Saved a frame! 44882 
+Saved a frame! 44849 
+Saved a frame! 44833 
+Saved a frame! 44464 
+Saved a frame! 44306 
+Saved a frame! 44276 
+Saved a frame! 44210 
+Saved a frame! 44167 
+Saved a frame! 44105 
+Saved a frame! 43943 
+Saved a frame! 43932 
+Saved a frame! 43706 
+Saved a frame! 43392 
+Saved a frame! 43391 
+Saved a frame! 43377 
+Saved a frame! 43371 
+Saved a frame! 43369 
+Saved a frame! 42874 
+Saved a frame! 42869 
+Saved a frame! 42850 
+Saved a frame! 42814 
+Saved a frame! 42801 
+Saved a frame! 42792 
+Saved a frame! 42774 
+Saved a frame! 42772 
+Saved a frame! 42416 
+Saved a frame! 42405 
+Saved a frame! 42101 
+Saved a frame! 42088 
+Saved a frame! 41918 
+Saved a frame! 41898 
+Saved a frame! 41780 
+Saved a frame! 41731 
+Saved a frame! 41724 
+Saved a frame! 41651 
+Saved a frame! 41630 
+Saved a frame! 41615 
+Saved a frame! 41599 
+Saved a frame! 41596 
+Saved a frame! 41566 
+Saved a frame! 41554 
+Saved a frame! 41430 
+Saved a frame! 41387 
+Saved a frame! 41352 
+Saved a frame! 41350 
+Saved a frame! 41325 
+Saved a frame! 41308 
+Saved a frame! 41286 
+Saved a frame! 41112 
+Saved a frame! 40995 
+Saved a frame! 40914 
+Saved a frame! 40729 
+Saved a frame! 40715 
+Saved a frame! 40685 
+Saved a frame! 40684 
+Saved a frame! 40401 
+Saved a frame! 40387 
+Saved a frame! 40369 
+Saved a frame! 40342 
+Saved a frame! 40341 
+Saved a frame! 40325 
+Saved a frame! 40321 
+Saved a frame! 40274 
+Saved a frame! 40040 
+Saved a frame! 40012 
+Saved a frame! 40011 
+Saved a frame! 40006 
+Saved a frame! 40005 
+Saved a frame! 39890 
+Saved a frame! 39878 
+Saved a frame! 39815 
+Saved a frame! 39795 
+Saved a frame! 39789 
+Saved a frame! 39781 
+Saved a frame! 39768 
+Saved a frame! 39700 
+Saved a frame! 39588 
+Saved a frame! 39570 
+Saved a frame! 39328 
+Saved a frame! 39256 
+Saved a frame! 39231 
+Saved a frame! 39224 
+Saved a frame! 39222 
+Saved a frame! 39181 
+Saved a frame! 39176 
+Saved a frame! 39001 
+Saved a frame! 38399 
+Saved a frame! 38397 
+Saved a frame! 38370 
+Saved a frame! 38274 
+Saved a frame! 38263 
+Saved a frame! 38253 
+Saved a frame! 38242 
+Saved a frame! 38102 
+Saved a frame! 38061 
+Saved a frame! 38047 
+Saved a frame! 38037 
+Saved a frame! 38031 
+Saved a frame! 38021 
+Saved a frame! 37990 
+Saved a frame! 37971 
+Saved a frame! 37959 
+Saved a frame! 37955 
+Saved a frame! 37905 
+Saved a frame! 37775 
+Saved a frame! 37761 
+Saved a frame! 37646 
+Saved a frame! 37612 
+Saved a frame! 37587 
+Saved a frame! 37493 
+Saved a frame! 37488 
+Saved a frame! 37403 
+Saved a frame! 37357 
+Saved a frame! 37317 
+Saved a frame! 37282 
+Saved a frame! 37257 
+Saved a frame! 37238 
+Saved a frame! 37236 
+Saved a frame! 37216 
+Saved a frame! 37212 
+Saved a frame! 37158 
+Saved a frame! 37151 
+Saved a frame! 37136 
+Saved a frame! 37131 
+Saved a frame! 37122 
+Saved a frame! 37121 
+Saved a frame! 37085 
+Saved a frame! 37064 
+Saved a frame! 37038 
+Saved a frame! 37026 
+Saved a frame! 37018 
+Saved a frame! 37017 
+Saved a frame! 37016 
+Saved a frame! 36969 
+Saved a frame! 36935 
+Saved a frame! 36921 
+Saved a frame! 36860 
+Saved a frame! 36726 
+Saved a frame! 36700 
+Saved a frame! 36699 
+Saved a frame! 36635 
+Saved a frame! 36620 
+Saved a frame! 36619 
+Saved a frame! 36586 
+Saved a frame! 36581 
+Saved a frame! 36538 
+Saved a frame! 36501 
+Saved a frame! 36497 
+Saved a frame! 36451 
+Saved a frame! 36442 
+Saved a frame! 36396 
+Saved a frame! 36393 
+Saved a frame! 36333 
+Saved a frame! 36261 
+Saved a frame! 36235 
+Saved a frame! 36228 
+Saved a frame! 36165 
+Saved a frame! 36133 
+Saved a frame! 36055 
+Saved a frame! 35774 
+Saved a frame! 35413 
+Saved a frame! 35342 
+Saved a frame! 35338 
+Saved a frame! 35335 
+Saved a frame! 35325 
+Saved a frame! 35291 
+Saved a frame! 35281 
+Saved a frame! 35276 
+Saved a frame! 34984 
+Saved a frame! 34973 
+Saved a frame! 34970 
+Saved a frame! 34887 
+Saved a frame! 34886 
+Saved a frame! 34854 
+Saved a frame! 34823 
+Saved a frame! 34794 
+Saved a frame! 34778 
+Saved a frame! 34719 
+Saved a frame! 34646 
+Saved a frame! 34641 
+Saved a frame! 34622 
+Saved a frame! 34542 
+Saved a frame! 34514 
+Saved a frame! 34418 
+Saved a frame! 34410 
+Saved a frame! 34383 
+Saved a frame! 34365 
+Saved a frame! 34329 
+Saved a frame! 34247 
+Saved a frame! 34245 
+Saved a frame! 34135 
+Saved a frame! 34127 
+Saved a frame! 34069 
+Saved a frame! 34041 
+Saved a frame! 34017 
+Saved a frame! 34016 
+Saved a frame! 33976 
+Saved a frame! 33850 
+Saved a frame! 33782 
+Saved a frame! 33775 
+Saved a frame! 33769 
+Saved a frame! 33620 
+Saved a frame! 33590 
+Saved a frame! 33462 
+Saved a frame! 33443 
+Saved a frame! 33433 
+Saved a frame! 33432 
+Saved a frame! 33407 
+Saved a frame! 33358 
+Saved a frame! 33342 
+Saved a frame! 33328 
+Saved a frame! 33323 
+Saved a frame! 33316 
+Saved a frame! 33201 
+Saved a frame! 33171 
+Saved a frame! 33101 
+Saved a frame! 33100 
+Saved a frame! 32979 
+Saved a frame! 32963 
+Saved a frame! 32923 
+Saved a frame! 32915 
+Saved a frame! 32863 
+Saved a frame! 32852 
+Saved a frame! 32851 
+Saved a frame! 32846 
+Saved a frame! 32705 
+Saved a frame! 32670 
+Saved a frame! 32619 
+Saved a frame! 32392 
+Saved a frame! 32354 
+Saved a frame! 32333 
+Saved a frame! 32190 
+Saved a frame! 32127 
+Saved a frame! 32112 
+Saved a frame! 32037 
+Saved a frame! 32016 
+Saved a frame! 32005 
+Saved a frame! 31976 
+Saved a frame! 31964 
+Saved a frame! 31898 
+Saved a frame! 31895 
+Saved a frame! 31884 
+Saved a frame! 31883 
+Saved a frame! 31874 
+Saved a frame! 31868 
+Saved a frame! 31866 
+Saved a frame! 31824 
+Saved a frame! 31594 
+Saved a frame! 31591 
+Saved a frame! 31572 
+Saved a frame! 31534 
+Saved a frame! 31466 
+Saved a frame! 31451 
+Saved a frame! 31386 
+Saved a frame! 31383 
+Saved a frame! 31365 
+Saved a frame! 31346 
+Saved a frame! 31324 
+Saved a frame! 31322 
+Saved a frame! 31314 
+Saved a frame! 31308 
+Saved a frame! 31

@@ -1,1 +1,1 @@
-gcc -Wall -Wextra -O3 -march=native -std=c11 main.c get_pixels.c -o main -lm
+gcc -Wall -Wextra -O3 -march=native -std=c11 main.c get_pixels.c gifenc.c -o main -lm

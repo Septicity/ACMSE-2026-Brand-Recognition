@@ -5,6 +5,11 @@
 #include <math.h>
 #include <string.h>
 
+#define GIF_IMPL
+#include "gifenc.h"
+
+#include "palette.c"
+
 #include "get_pixels.h"
 #include "datatypes.c"
 #include "floodFill.c"
@@ -67,16 +72,28 @@ int main(int argc, char** argv) {
 	
 	printf("Created the segment matrix\n");
 	
+	// Create the gif struct instance
+	
+	const char* gifFilename = "output.gif";
+	
+	ge_GIF *gif = ge_new_gif(gifFilename, width, height, colors,
+        2,             
+        -1,             
+        0               
+    );
+	
 	int pixelsTraversed = 1;
 	
 	while(countZeros(segmentMap, height, width) != 0) {
-		printf("Count Zeros: %d\n", countZeros(segmentMap, height, width));
 		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width, argv[2]);
+		saveGifFrame(gif, segmentMap, height, width);
+		printf("Saved a frame! %d \n", countZeros(segmentMap, height, width));
 	}
 	
-	int success = save_pixels("output.png", segmentMap, width, height);
+	save_pixels("output.png", segmentMap, width, height);
 	
-	saveGif("output.gif", segmentMap, height, width);
+	
+	ge_close_gif(gif);
 	
 	return SUCCESS;
 	

@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <stdint.h>
-
-#include "gifenc.c"
+#include <limits.h>
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
+
+#include "gifenc.h"
 
 #include "get_pixels.h"
 
@@ -74,8 +75,6 @@ int save_pixels(const char* filename, uint16_t** pixels, int width, int height) 
 		
 		for (int x = 0; x < width; x++) {
 
-			uint16_t val = pixels[y][x];
-
 			int idx = (y * width + x) * 4;
 			
 			//if((int)val * 20 > 255) printf("Overflow Detected at: %d %d\n", y, x);
@@ -96,34 +95,66 @@ int save_pixels(const char* filename, uint16_t** pixels, int width, int height) 
 	
 }
 
-int saveGif(const char* filename, uint16_t** segmentMap, int width, int height) {
-    int i, j;
+int findClosestColor(uint8_t r, uint8_t g, uint8_t b) {
+	
+	int bestIndex = 0;
+	int bestDist = INT_MAX;
 
-    ge_GIF *gif = ge_new_gif(
-        filename,
-        width, height,
-        (uint8_t []) {  // palette
-           // All segments must be a fully saturated color.
-            // As such, we can use a 256-color rainbow as the palette, enumerated
-            // by hue.
-            0xFF, 0x00, 0x00, /* 0 -> black */
-            0xFF, 0x00, 0x00, /* 1 -> red */
-            0x00, 0xFF, 0x00, /* 2 -> green */
-            0x00, 0x00, 0xFF, /* 3 -> blue */
-        },
-        2,              /* palette depth == log2(# of colors) */
-        -1,             /* no transparency */
-        0               /* infinite loop */
-    );
+	for (int i = 0; i < PALETTE_SIZE; i++) {
+		
+		int pr = colors[i * 3 + 0];
+		int pg = colors[i * 3 + 1];
+		int pb = colors[i * 3 + 2];
+
+		int dr = r - pr;
+		int dg = g - pg;
+		int db = b - pb;
+
+		int dist = dr * dr + dg * dg + db * db; // euclidean distance
+
+		if (dist < bestDist) {
+			
+			bestDist = dist;
+			bestIndex = i;
+			
+		}
+		
+	}
+
+	return bestIndex;
+	
+}
+
+int saveGifFrame(ge_GIF* gif, uint16_t** segmentMap, int width, int height) {
+	
+	/*
+		All segments must be a fully saturated color.
+		As such, we can use a 256-color rainbow as the palette, enumerated
+		by hue.
+	*/
+	
     /* draw some frames */
-    for (i = 0; i < 4*6/3; i++) {
-        for (j = 0; j < width*height; j++)
-            gif->frame[j] = (i*3 + j) / 6 % 4;
-        ge_add_frame(gif, 10);
-    }
-    /* remember to close the GIF */
-    ge_close_gif(gif);
+	
+	for (int y = 0; y < height; y++) {
+		
+		for (int x = 0; x < width; x++) {
+			
+			//if((int)val * 20 > 255) printf("Overflow Detected at: %d %d\n", y, x);
+			srand(segmentMap[y][x]);
+			float r = (uint8_t)((rand() * 10) % 255); // R
+			float g = (uint8_t)((rand() * 20) % 255); // G
+			float b = (uint8_t)((rand() * 30) % 255); // B
+			
+			gif->frame[(y * width) + x] = findClosestColor(r, g, b);
+			
+		}
+		
+	}
+	
+	ge_add_frame(gif, 10);
+	
     return 0;
+	
 }
 
 int countZeros(uint16_t** segmentMap, int height, int width) {
