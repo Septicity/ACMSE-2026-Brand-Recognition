@@ -1,38 +1,44 @@
-void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int height, int width) {
+void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int* pixelsTraversed, int height, int width) {
 	
 	static int iteration = 1;
+	static point_t lastNonPoint = {-1, -1};
 
 	int seedX, seedY;
+	
+	// Allows us to use the last detected non-section pixel as the start of the new section
+	if(lastNonPoint.x == -1 && lastNonPoint.y == -1) {
 
-	// find an unvisited seed
-	while(1) {
-		
-		seedX = rand() % width;
-		seedY = rand() % height;
+		// find an unvisited seed
+		while(1) {
+			
+			seedX = rand() % width;
+			seedY = rand() % height;
 
-		if (segmentMap[seedY][seedX] == 0) break;
+			if (segmentMap[seedY][seedX] == 0) break;
+			
+		}
 		
 	}
-	
-	printf("Picked random seed: %d, %d\n", seedY, seedX);
+	else {
+		
+		seedX = lastNonPoint.x;
+		seedY = lastNonPoint.y
+		
+	}	
 
 	Stack stack;
 	if (!initStack(&stack, height * width)) return; // Start with some default value and then grow
-	
-	printf("Created the stack \n");
 
 	// push seed pixel
 	push(&stack, (Point_t){seedX, seedY});
+	
+	lastNonPoint.x = -1;
+	lastNonPoint.y = -1;
 
 	Point_t p;
 
 	// while stack not empty
 	while(pop(&stack, &p)) {
-		
-		if (p.x < 0 || p.x >= width || p.y < 0 || p.y >= height) {
-			printf("INVALID POP: (%d, %d)\n", p.y, p.x);
-			continue;
-		}
 		
 		// skip if we've already visited that pixel
 		if (segmentMap[p.y][p.x] != 0) continue;
@@ -66,8 +72,14 @@ void floodfill(uint8_t** pixelMatrix, uint8_t** segmentMap, int height, int widt
 			
 			if(abs(val - pixelMatrix[p.y][p.x]) <= 15) {
 				push(&stack, (Point_t){nx, ny});
+				*pixelsTraversed++;
 			}
-			
+			else {
+				
+				lastNonPoint.x = nx;
+				lastNonPoint.y = ny;
+				
+			}
 			
 		}
 		

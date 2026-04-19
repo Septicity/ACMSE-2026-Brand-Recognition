@@ -67,7 +67,11 @@ int main(int argc, char** argv) {
 	
 	printf("Created the segment matrix\n");
 	
-	floodfill(pixelMatrix, segmentMap, height, width);
+	int pixelsTraversed = 1;
+	
+	while(pixelsTraversed < (height * width)) {
+		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width);
+	}
 	
 	return SUCCESS;
 	

@@ -51,8 +51,6 @@ uint8_t** get_pixels(const char* filename, int* Width, int* Height) {
 
 	stbi_image_free(data);
 	
-	printf("STB Width = %d, Height = %d\n", width, height);
-	
 	// Write to the height/width values if we supply an argument
 	if (Width) *Width = width;
 	if (Height) *Height = height;
