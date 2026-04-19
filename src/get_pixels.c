@@ -77,10 +77,10 @@ int save_pixels(const char* filename, uint16_t** pixels, int width, int height) 
 			int idx = (y * width + x) * 4;
 			
 			//if((int)val * 20 > 255) printf("Overflow Detected at: %d %d\n", y, x);
-
-			data[idx + 0] = (uint8_t)((val * 20) % 255); // R
-			data[idx + 1] = (uint8_t)((val * 20) % 255); // G
-			data[idx + 2] = (uint8_t)((val * 20) % 255); // B
+			srand(pixels[y][x]);
+			data[idx + 0] = (uint8_t)((rand() * 10) % 255); // R
+			data[idx + 1] = (uint8_t)((rand() * 20) % 255); // G
+			data[idx + 2] = (uint8_t)((rand() * 30) % 255); // B
 			data[idx + 3] = 255; // A
 		}
 		
