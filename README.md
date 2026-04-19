@@ -13,3 +13,8 @@ Team: Brand Recognition
     ├───images
     └───masks
 ```
+## Diagrams
+(diagrams/step1.png)
+(diagrams/step2b2c.png)
+(diagrams/step2c3.png)
+(diagrams/step4a4b.png)
