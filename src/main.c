@@ -73,20 +73,20 @@ int main(int argc, char** argv) {
 	printf("Created the segment matrix\n");
 	
 	// Create the gif struct instance
-	
 	const char* gifFilename = "output.gif";
 	
 	ge_GIF *gif = ge_new_gif(gifFilename, width, height, colors,
-        2,             
-        -1,             
-        0               
+        8,              /* palette depth == log2(# of colors) */
+        -1,             /* no transparency */
+        0               /* infinite loop */
     );
+	
 	
 	int pixelsTraversed = 1;
 	
 	while(countZeros(segmentMap, height, width) != 0) {
 		floodfill(pixelMatrix, segmentMap, &pixelsTraversed, height, width, argv[2]);
-		saveGifFrame(gif, segmentMap, height, width);
+		saveGifFrame(gif, segmentMap, width, height);
 		printf("Saved a frame! %d \n", countZeros(segmentMap, height, width));
 	}
 	

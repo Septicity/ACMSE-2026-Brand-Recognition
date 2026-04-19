@@ -1,6 +1,6 @@
 import colorsys
 
-def generate_palette(n=255):
+def generate_palette(n=256):
     print("uint8_t colors[] = {  // palette")
     
     for i in range(n):

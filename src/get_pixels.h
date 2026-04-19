@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 extern uint8_t colors[];
-#define PALETTE_SIZE 255
+#define PALETTE_SIZE 256
 #include "gifenc.h"
 
 uint8_t** get_pixels(const char* filename, int* width, int* height);

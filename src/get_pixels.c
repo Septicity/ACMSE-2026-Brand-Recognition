@@ -141,9 +141,10 @@ int saveGifFrame(ge_GIF* gif, uint16_t** segmentMap, int width, int height) {
 			
 			//if((int)val * 20 > 255) printf("Overflow Detected at: %d %d\n", y, x);
 			srand(segmentMap[y][x]);
-			float r = (uint8_t)((rand() * 10) % 255); // R
-			float g = (uint8_t)((rand() * 20) % 255); // G
-			float b = (uint8_t)((rand() * 30) % 255); // B
+			
+			float r = (float)((rand() * 10) % 255); // R
+			float g = (float)((rand() * 20) % 255); // G
+			float b = (float)((rand() * 30) % 255); // B
 			
 			gif->frame[(y * width) + x] = findClosestColor(r, g, b);
 			
