@@ -42,12 +42,35 @@ Output will be located at `/src/output.png`
 
 ## Examples
 
-Example 1 (delta = 15):
+Example 1, training set (delta = 15):
+
 ![Example 1](diagrams/EX1.png)
 
-Example 2 (delta = 100):
+Example 2, training set (delta = 100):
+
 ![Example 2](diagrams/EX2.png)
+
+---
+
+Example 3, testing set (delta = 15):
+
+![Example 3](diagrams/EX3.png)
+
+Example 4, testing set (delta = 15):
+
+![Example 4](diagrams/EX4.png)
+
+Example 5, testing set (delta = 15):
+
+![Example 5](diagrams/EX5.png)
+
+Example 6, testing set (delta = 15):
+
+![Example 6](diagrams/EX6.png)
+
+---
 
 Mask from the provided masks (colorized):
 
 ![Example Mask](diagrams/15088Mask.png)
+
